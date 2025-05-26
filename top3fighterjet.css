@@ -1,0 +1,254 @@
+*
+{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+
+:root{
+    --thirang: 10px 15px orange,20px 25px white,30px 35px green; 
+}
+
+
+body {
+    background-color: lightgrey;
+    padding:5px;
+    margin:10px;
+    border-top: 5px solid orange;
+    border-left:5px solid green;
+    border-right:5px solid green;
+    border-bottom:5px solid orange;
+}
+
+#main_heading{
+
+    display:flex;
+    justify-content: center;
+    padding:15px ;
+
+    
+}
+
+#heading_orange
+{
+    background-color: rgb(233, 202, 144);
+    color: orange;
+    border:2px solid rgba(4, 4, 144, 0.359);
+    border-radius: 10px;
+    margin:5px;
+    padding:2px;
+}
+#heading_white
+{
+    background-color: rgb(62, 156, 223);
+    color: white;
+    border: 2px solid rgba(4, 4, 144, 0.359);
+    border-radius:10px;
+    margin:5px;
+    padding:2px;
+    width:200px;
+}
+
+#heading_green
+{
+    background-color: rgba(6, 95, 12, 0.354);
+    color: green;
+    border:2px solid rgba(4, 4, 144, 0.359);
+    border-radius:10px;
+    margin:5px;
+    padding:2px;
+}
+
+
+.main_heading_content
+{
+    text-align: justify;
+
+}
+#fighters_outside
+{
+    margin:5px;
+}
+
+.fighter
+{
+    padding-top: 10px;
+    padding-bottom:5px;
+
+}
+
+#fighters
+{
+    font-weight: 1000 ;
+    font-size: 125%;
+    font-style: italic;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    margin: 4px;
+    margin-top:10px;
+    padding-top:5px;
+    border-radius: 5px;
+    text-shadow: #fc0 1px 0 10px;
+    border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+    border-left: 5px solid green;
+    border-right: 5px solid green;
+}
+
+#p1_1
+{
+    margin:5px;
+    padding:5px;
+}
+
+.Number_One
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.mki_title
+{
+    background-color: rgb(235, 214, 165);
+    border: 5px solid green;
+    border-top-color: green;
+    border-bottom-color: orange;
+    border-left-color: blue;
+    border-right-color: blue;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 2px;
+    color:orange;
+    font:
+    italic 2rem "Fira Sans",
+    serif;
+    text-align: center;
+    width: 100%;
+    height: 65px;
+
+}
+
+.sukhoi-image
+{
+    padding-top: 10px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 5px;
+    box-shadow: var(--thirang);
+}
+
+.mki_content
+{
+    padding-top: 60px;
+    text-align: justify;
+}
+
+.videodivouter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.videodivinner
+{
+    font-weight: 1000 ;
+    font-size: 125%;
+    font-style: italic;
+    background-color: black;
+    color: white;
+    margin: 3px;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    text-shadow: #fc0 1px 0 10px;
+
+}
+
+.videodivinner2
+{
+    box-shadow: var(--thirang);
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.Number_two
+{
+    margin: 4px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.tejastitle
+{
+    background-color: rgb(160, 187, 245);
+    border:5px solid green;
+    border-top-color: orange;
+    border-bottom-color: blue;
+    border-left-color: white;
+    border-right-color: white;
+    border-radius: 20px;
+    color:white;
+    font:
+    italic 2rem "Fira Sans",
+    serif;
+    text-align: center;
+    width: 100%;
+
+}
+
+.tejascontent
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: justify;
+}
+
+
+#tejasimage
+{
+    padding-top: 10px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 5px auto; /* Center the image horizontally */
+    display: block; /* Ensure the image behaves as a block element */
+    box-shadow: var(--thirang);
+}
+
+
+.Number_Three
+{
+    margin: 4px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.number3_title
+{
+    background-color: rgb(142, 240, 173);
+    border:5px solid green;
+    border-top-color: blue;
+    border-bottom-color: green;
+    border-left-color: orange;
+    border-right-color: orange;
+    border-radius: 20px;
+    color:green;
+    font:
+    italic 2rem "Fira Sans",
+    serif;
+    text-align: center;
+    width: 100%;
+
+}
+
+
+
